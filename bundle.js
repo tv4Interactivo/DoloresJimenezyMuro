@@ -61974,10 +61974,12 @@ var tick = function tick() {
 };
 
 tick();
-window.addEventListener('click', function () {
-  console.log(camera.position);
-  console.log(camera.rotation);
-});
+
+//  window.addEventListener('click', function(){
+//      console.log(camera.position)
+//      console.log(camera.rotation)
+//  })
+
 var counter = 0;
 var btn_next = document.querySelector('.b_next');
 var btn_prev = document.querySelector('.b_prev');
