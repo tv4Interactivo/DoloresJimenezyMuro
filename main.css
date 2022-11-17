@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.scene{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.main-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: #FFD58B; */
+}
+
+.nav-buttons{
+    margin: 2rem;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+} 
+
+.button{
+  border-radius: 10px;
+  border: none;
+  margin: 0 4rem;
+  padding: 0.5rem; 
+  background-color: #FFD58B; 
+}
+
+.button:hover{
+    background-color: #fddfad;
+}
+
+.button:active{
+    background-color: #d5a95d;
+}
+
+.img-logo{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 5%;
+    height: auto;
+}
+
+.hand{
+    width: 40%;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    display: flex;
+    z-index: 0;
+    font-size: 2rem;
+}
+
+.title{
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+    color: #FFD58B;
+}
+
+.camara{
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.camara_back{
+    width: 80%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.villa{
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.villa_back{
+    width: 70%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.dolores{
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.dolores_back{
+    width: 70%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.maestra{
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.maestra_back{
+    width: 70%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.revo{
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.revo_back{
+    width: 80%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.vesper{
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.vesper_back{
+    width: 80%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.cuau{
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.cuau_back{
+    width: 80%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.ayala{
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.ayala_back{
+    width: 80%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.antorcha{
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.antorcha_back{
+    width: 80%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.retrato{
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0;
+    /* background-color: blue; */
+}
+
+.retrato_back{
+    width: 80%;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #ffd48be4;
+    color: #533f1de4;
+    border: none;
+    border-radius: 10px;
+}
+
+.creditos{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .title{
+        width: 100vw;
+        font-size: 2rem;
+    }
+
+    .nav-buttons{
+        width: 100%;
+    }
+
+    .button{
+        margin: 0 1rem;
+    }
+
+    .camara{
+        width: 100vw;
+        height: 55vh;
+        font-size: 1.5rem;
+    }
+
+    .camara_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .villa{
+        width: 100vw;
+        height: 70vh;
+        font-size: 1.5rem;
+    }
+    
+    .villa_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .dolores{
+        width: 100vw;
+        height: 70vh;
+        font-size: 1.5rem;
+    }
+    
+    .dolores_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .maestra{
+        width: 100vw;
+        height: 70vh;
+        font-size: 1.5rem;
+    }
+    
+    .maestra_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .revo{
+        width: 100vw;
+        height: 70vh;
+        font-size: 1.5rem;
+    }
+    
+    .revo_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .vesper{
+        width: 100vw;
+        height: 70vh;
+        font-size: 1.5rem;
+    }
+    
+    .vesper_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .cuau{
+        width: 100vw;
+        height: 70vh;
+        font-size: 1.5rem;
+    }
+    
+    .cuau_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .ayala{
+        width: 100vw;
+        height: 70vh;
+        font-size: 1.5rem;
+    }
+    
+    .ayala_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .antorcha{
+        top: 0;
+        width: 100vw;
+        height: 60vh;
+        font-size: 1.5rem;
+    }
+    
+    .antorcha_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .retrato{
+        width: 100vw;
+        height: 60vh;
+        font-size: 1.5rem;
+    }
+    
+    .retrato_back{
+        width: 95%;
+        margin: 1rem;
+    }
+
+    .img-logo{
+        width: 20%;
+        top:10px;
+    }
+
+    .creditos{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .hand{
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 912px){
+
+    .title{
+        width: 100vw;
+        font-size: 3rem;
+    }
+
+    .nav-buttons{
+        width: 80%;
+    }
+
+    .button{
+        margin: 1rem 3rem;
+    }
+
+    .camara{
+        width: 100vw;
+        height: 55vh;
+        font-size: 2rem;
+    }
+
+    .camara_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .villa{
+        width: 100vw;
+        height: 70vh;
+        font-size: 2rem;
+    }
+    
+    .villa_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .dolores{
+        width: 100vw;
+        height: 70vh;
+        font-size: 2rem;
+    }
+    
+    .dolores_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .maestra{
+        width: 100vw;
+        height: 70vh;
+        font-size: 2rem;
+    }
+    
+    .maestra_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .revo{
+        width: 100vw;
+        height: 70vh;
+        font-size: 2rem;
+    }
+    
+    .revo_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .vesper{
+        width: 100vw;
+        height: 70vh;
+        font-size: 2rem;
+    }
+    
+    .vesper_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .cuau{
+        width: 100vw;
+        height: 70vh;
+        font-size: 2rem;
+    }
+    
+    .cuau_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .ayala{
+        width: 100vw;
+        height: 70vh;
+        font-size: 2rem;
+    }
+    
+    .ayala_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .antorcha{
+        top: 0;
+        width: 100vw;
+        height: 60vh;
+        font-size: 2rem;
+    }
+    
+    .antorcha_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .retrato{
+        width: 100vw;
+        height: 60vh;
+        font-size: 2rem;
+    }
+    
+    .retrato_back{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .img-logo{
+        width: 15%;
+        top:10px;
+    }
+
+    .creditos{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .hand{
+        width: 40%;
+        height: auto;
+    }
+}
