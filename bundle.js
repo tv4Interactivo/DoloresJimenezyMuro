@@ -62028,6 +62028,9 @@ mm.add("(max-width: 500px)", function () {
         duration: 2,
         delay: 2
       });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
+        "opacity": "1"
+      });
       counter = 1;
     } else if (counter == 1) {
       //villa-silla
@@ -62145,6 +62148,9 @@ mm.add("(max-width: 500px)", function () {
         duration: 2,
         delay: 2
       });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
+        "opacity": "0"
+      });
       counter = 10;
     }
   };
@@ -62160,6 +62166,9 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "1",
         duration: 2,
         delay: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
+        "opacity": "0"
       });
       counter = 0;
     } else if (counter == 2) {
@@ -62277,6 +62286,9 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "1",
         duration: 2,
         delay: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
+        "opacity": "1"
       });
       counter = 9;
     }
@@ -62296,6 +62308,9 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         duration: 2,
         delay: 2
       });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
+        "opacity": "1"
+      });
       counter = 1;
     } else if (counter == 1) {
       //villa-silla
@@ -62413,6 +62428,9 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         duration: 2,
         delay: 2
       });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
+        "opacity": "0"
+      });
       counter = 10;
     }
   };
@@ -62428,6 +62446,9 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "1",
         duration: 2,
         delay: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
+        "opacity": "0"
       });
       counter = 0;
     } else if (counter == 2) {
@@ -62546,6 +62567,9 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         duration: 2,
         delay: 2
       });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
+        "opacity": "1"
+      });
       counter = 9;
     }
   };
@@ -62563,6 +62587,9 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "1",
         duration: 2,
         delay: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
+        "opacity": "1"
       });
       counter = 1;
     } else if (counter == 1) {
@@ -62681,6 +62708,9 @@ mm.add("(min-width: 913px)", function () {
         duration: 2,
         delay: 2
       });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
+        "opacity": "0"
+      });
       counter = 10;
     }
   };
@@ -62696,6 +62726,9 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "1",
         duration: 2,
         delay: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
+        "opacity": "0"
       });
       counter = 0;
     } else if (counter == 2) {
@@ -62813,6 +62846,9 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "1",
         duration: 2,
         delay: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
+        "opacity": "1"
       });
       counter = 9;
     }
