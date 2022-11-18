@@ -61988,7 +61988,7 @@ function moveCamera(x, y, z) {
     x: x,
     y: y,
     z: z,
-    duration: 2.7,
+    duration: 2,
     ease: "sine.out"
   });
 }
@@ -61997,7 +61997,7 @@ function rotateCamera(x, y, z) {
     x: x,
     y: y,
     z: z,
-    duration: 2.9,
+    duration: 2.2,
     ease: "sine.out"
   });
 }
@@ -62024,9 +62024,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".camara", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
         "opacity": "1"
@@ -62040,9 +62038,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".villa", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 2;
     } else if (counter == 2) {
@@ -62053,9 +62049,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".dolores", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 3;
     } else if (counter == 3) {
@@ -62066,9 +62060,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".maestra", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 4;
     } else if (counter == 4) {
@@ -62079,9 +62071,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".revo", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 5;
     } else if (counter == 5) {
@@ -62092,9 +62082,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vesper", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 6;
     } else if (counter == 6) {
@@ -62105,9 +62093,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".cuau", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 7;
     } else if (counter == 7) {
@@ -62118,9 +62104,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".ayala", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 8;
     } else if (counter == 8) {
@@ -62131,9 +62115,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".antorcha", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 9;
     } else if (counter == 9) {
@@ -62144,9 +62126,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".retrato", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
         "opacity": "0"
@@ -62163,9 +62143,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".title", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
         "opacity": "0"
@@ -62179,9 +62157,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".camara", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 1;
     } else if (counter == 3) {
@@ -62192,9 +62168,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".villa", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 2;
     } else if (counter == 4) {
@@ -62205,9 +62179,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".dolores", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 3;
     } else if (counter == 5) {
@@ -62218,9 +62190,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".maestra", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 4;
     } else if (counter == 6) {
@@ -62231,9 +62201,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".revo", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 5;
     } else if (counter == 7) {
@@ -62244,9 +62212,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vesper", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 6;
     } else if (counter == 8) {
@@ -62257,9 +62223,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".cuau", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 7;
     } else if (counter == 9) {
@@ -62270,9 +62234,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".ayala", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 8;
     } else if (counter == 10) {
@@ -62283,9 +62245,7 @@ mm.add("(max-width: 500px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".antorcha", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
         "opacity": "1"
@@ -62304,9 +62264,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".camara", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
         "opacity": "1"
@@ -62320,9 +62278,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".villa", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 2;
     } else if (counter == 2) {
@@ -62333,9 +62289,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".dolores", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 3;
     } else if (counter == 3) {
@@ -62346,9 +62300,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".maestra", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 4;
     } else if (counter == 4) {
@@ -62359,9 +62311,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".revo", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 5;
     } else if (counter == 5) {
@@ -62372,9 +62322,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vesper", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 6;
     } else if (counter == 6) {
@@ -62385,9 +62333,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".cuau", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 7;
     } else if (counter == 7) {
@@ -62398,9 +62344,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".ayala", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 8;
     } else if (counter == 8) {
@@ -62411,9 +62355,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".antorcha", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 9;
     } else if (counter == 9) {
@@ -62424,9 +62366,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".retrato", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
         "opacity": "0"
@@ -62443,9 +62383,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".title", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
         "opacity": "0"
@@ -62459,9 +62397,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".camara", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 1;
     } else if (counter == 3) {
@@ -62472,9 +62408,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".villa", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 2;
     } else if (counter == 4) {
@@ -62485,9 +62419,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".dolores", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 3;
     } else if (counter == 5) {
@@ -62498,9 +62430,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".maestra", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 4;
     } else if (counter == 6) {
@@ -62511,9 +62441,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".revo", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 5;
     } else if (counter == 7) {
@@ -62524,9 +62452,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vesper", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 6;
     } else if (counter == 8) {
@@ -62537,9 +62463,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".cuau", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 7;
     } else if (counter == 9) {
@@ -62550,9 +62474,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".ayala", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 8;
     } else if (counter == 10) {
@@ -62563,9 +62485,7 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".antorcha", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
         "opacity": "1"
@@ -62584,9 +62504,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".camara", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
         "opacity": "1"
@@ -62597,12 +62515,10 @@ mm.add("(min-width: 913px)", function () {
       moveCamera(-0.012, 1.228, 0.222);
       rotateCamera(-0.260, 0.797, 0.188);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".camara", {
-        "opacity": 0
+        "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".villa", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 2;
     } else if (counter == 2) {
@@ -62613,9 +62529,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".dolores", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 3;
     } else if (counter == 3) {
@@ -62626,9 +62540,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".maestra", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 4;
     } else if (counter == 4) {
@@ -62639,9 +62551,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".revo", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 5;
     } else if (counter == 5) {
@@ -62652,9 +62562,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vesper", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 6;
     } else if (counter == 6) {
@@ -62665,9 +62573,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".cuau", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 7;
     } else if (counter == 7) {
@@ -62678,9 +62584,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".ayala", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 8;
     } else if (counter == 8) {
@@ -62691,9 +62595,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".antorcha", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 9;
     } else if (counter == 9) {
@@ -62704,9 +62606,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".retrato", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
         "opacity": "0"
@@ -62723,9 +62623,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".title", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_prev", {
         "opacity": "0"
@@ -62739,9 +62637,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".camara", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 1;
     } else if (counter == 3) {
@@ -62752,9 +62648,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".villa", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 2;
     } else if (counter == 4) {
@@ -62765,9 +62659,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".dolores", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 3;
     } else if (counter == 5) {
@@ -62778,9 +62670,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".maestra", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 4;
     } else if (counter == 6) {
@@ -62791,9 +62681,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".revo", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 5;
     } else if (counter == 7) {
@@ -62804,9 +62692,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vesper", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 6;
     } else if (counter == 8) {
@@ -62817,9 +62703,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".cuau", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 7;
     } else if (counter == 9) {
@@ -62830,9 +62714,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".ayala", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       counter = 8;
     } else if (counter == 10) {
@@ -62843,9 +62725,7 @@ mm.add("(min-width: 913px)", function () {
         "opacity": "0"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".antorcha", {
-        "opacity": "1",
-        duration: 2,
-        delay: 2
+        "opacity": "1"
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".b_next", {
         "opacity": "1"
